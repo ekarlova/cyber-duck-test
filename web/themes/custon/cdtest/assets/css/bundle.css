@@ -1,0 +1,38 @@
+/* Artist block */
+.sptf-artist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+.sptf-artist__link {
+  border: 1px solid #000;
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+.sptf-artist__img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  display: block;
+}
+.sptf-artist__name {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+/* Artist details page */
+.sptf-artist-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sptf-artist-details__number {
+  font-size: 1.5rem;
+  border-bottom: 1px dashed;
+}

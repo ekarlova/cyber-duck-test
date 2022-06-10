@@ -1,0 +1,8 @@
+name: Cyber-duck test
+type: theme
+description: Clean starter theme for D9
+core_version_requirement: ^8.8 || ^9
+base theme: bartik
+
+libraries:
+  - cdtest/global-styling

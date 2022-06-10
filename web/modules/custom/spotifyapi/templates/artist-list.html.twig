@@ -1,0 +1,10 @@
+<div class="sptf-artist">
+  {% for artist in artists %}
+    <div class="sptf-artist__item">
+      <a class="sptf-artist__link" href="/view-artist/{{ artist.id }}">
+        <img class="sptf-artist__img" src="{{ artist.images[2].url }}" alt="{{ artist.name }}">
+        <span class="sptf-artist__name">{{ artist.name }}</span>
+      </a>
+    </div>
+  {% endfor %}
+</div>

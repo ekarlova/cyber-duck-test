@@ -1,0 +1,9 @@
+<h2>{{ artist.name }}</h2>
+
+<img src="{{ artist.images[0].url }}" alt="{{ artist.name }}">
+
+<ul class="sptf-artist-details">
+  <li>Followers: <span class="sptf-artist-details__number">{{ artist.followers.total }}</span></li>
+  <li>Popularity: <span class="sptf-artist-details__number">{{ artist.popularity }}</span></li>
+  <li>Genres: <span class="sptf-artist-details__number">{{ artist.genres|join(', ') }}</span></li>
+</ul>
